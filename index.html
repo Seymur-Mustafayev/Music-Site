@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="/main.js">
+
+    </script>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Inter&family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <section id="Navbar">
+        <div class="navbar" id="navbar">
+            <div class="navbar-area">
+                <div class="navbar-left">
+                    <a href="./index.html">
+                        <span class="logo-bars">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                        <span class="logo-text">music</span>
+                    </a>
+
+                </div>
+                <div class="navbar-center">
+                    <div class="navbar-center-link"><a href="./index.html">Home</a></div>
+                    <div class="navbar-center-link"><a href="/artist.html">Artists</a></div>
+                  
+                    <div class="navbar-center-link"><a href="/news.html">News</a></div>
+                    <div class="navbar-center-link"><a href="/contact.html">Contact</a></div>
+                </div>
+                <div class="navbar-right">
+                    <div class="navbar-right-item">
+                        <a href="">Login </a><span style="color:white ;">/</span><a href="">Register</a>
+
+
+                    </div>
+                    <div class="responsive-bars" >
+                        <a href="" class="tag">
+                            <span class="bars">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="menu-container">
+            <div class="menu-center">
+                <div class="menu">
+                    <div class="menu-item"><a href="/index.html">Home</a></div>
+                    <div class="menu-item"><a href="/artist.html">Artists</a></div>
+                    
+                    <div class="menu-item"><a href="/news.html">News</a></div>
+                    <div class="menu-item"><a href="/contact.html">Contact</a></div>
+                </div>
+
+
+            </div>
+            <div class="menu-exit"><a href=""><i class="fa-solid fa-xmark"></i></a></div>
+        </div>
+
+    </section>
+    <!-- Navbar End -->
+
+
+    <!-- Home Page Start -->
+    <div class="home-page">
+        <div class="home-area">
+            <div class="home-text">
+                <h1>your <span style="color:#eeff2d ;">music.</span></h1>
+                <div class="home-span">
+                    <span>LIVE</span>
+                </div>
+
+
+            </div>
+            <div class="home-inputs">
+                <div class="event-input">
+                    <div class="event">Event</div>
+                    <div class="event-dropdown">
+                        <div class="event-dropdown-item"><a href="">Event 1</a></div>
+                        <div class="event-dropdown-item"><a href="">Event 2</a></div>
+                        <div class="event-dropdown-item"><a href="">Event 3</a></div>
+                    </div>
+                </div>
+                <div class="ticket-input"><input type="text" placeholder="Tickets"></div>
+                <div class="btn">
+                    <button class="button">
+                        <span>GET YOUR TICKETS</span>
+                    </button>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="home-links">
+            <div class="home-link-text">follow</div>
+            <div class="home-link">
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-dribbble"></i> </a>
+                <a href=""><i class="fa-brands fa-behance"></i></a>
+            </div>
+        </div>
+        <div class="scroll">
+            <div><a href="">Scroll Down</a></div>
+            <div class="down">
+                <i class="fa-solid fa-angle-down hero"></i>
+                <i class="fa-solid fa-angle-down  kero"></i>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Home Page End -->
+
+    <!--Song Of Week Start -->
+
+    <div class="song-center">
+        <audio id="main-song" src="./Auidios/Mr.Kitty_-_After_Dark.mp3"></audio>
+        <div class="song-area">
+            <div class="song-left">
+                <div class="song-controls">
+                    <div class="song-subtitle">song of the week</div>
+                    <div class="controls">
+                        <div id="far" class="bar"> <i id="dar" class=" fa-regular fa-circle-play "></i></div>
+                        <div><i id="qar" class=" fa-regular fa-circle-pause "></i></div>
+                    </div>
+                </div>
+                <div class="song-photo"><img src="./Images/song_1.jpg.webp" alt=""></div>
+            </div>
+            <div class="scroll-bar">
+                <div class="song-info">
+                    <div class="song-heading">MICHAEL SMITH</div>
+                    <div class="song-name">Better Days</div>
+                </div>
+                <div class="song-slider">
+                    <input type="range" value="0" class="seek-bar">
+
+                    <span class="current-time">00:00</span>
+                    <span class="song-duration">00:00</span>
+                </div>
+            </div>
+            <div class="song-sound"></div>
+        </div>
+    </div>
+
+
+
+
+    <!--Song Of Week End -->
+
+    <div class="tours">
+        <div class="tours-area">
+            <div class="tours-left">
+
+                <div class="tours-border">
+                    <div class="tours-text">IT'S AWESOME</div>
+                    <div class="center-text">
+                        <div class="center-year">2019</div>
+                        <div class="center-title">WORLD TOUR</div>
+                        <div class="center-subtitle">NOVEMBER 2018</div>
+                    </div>
+                    <div class="btn">
+                        <button class="button">
+                            <span>GET YOUR TICKETS</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="tours-right">
+                <h1>Tour Dates</h1>
+                <div class="tours-date">
+                    <div class="date-text">
+                        <div class="date-title">Sun, 21 Oct 2018</div>
+                        <div class="date-link"><a href="">The O2</a></div>
+                        <div class="date-location">London, United Kingdom</div>
+                    </div>
+                    <div class="btn">
+                        <button class="button">
+                            <span>GET YOUR TICKETS</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="tours-date">
+                    <div class="date-text">
+                        <div class="date-title">Sun, 21 Oct 2018</div>
+                        <div class="date-link"><a href="">The O2</a></div>
+                        <div class="date-location">London, United Kingdom</div>
+                    </div>
+                    <div class="btn">
+                        <button class="button">
+                            <span>GET YOUR TICKETS</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="tours-date">
+                    <div class="date-text">
+                        <div class="date-title">Sun, 21 Oct 2018</div>
+                        <div class="date-link"><a href="">The O2</a></div>
+                        <div class="date-location">London, United Kingdom</div>
+                    </div>
+                    <div class="btn">
+                        <button class="button">
+                            <span>GET YOUR TICKETS</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="tours-date remove-border">
+                    <div class="date-text ">
+                        <div class="date-title">Sun, 21 Oct 2018</div>
+                        <div class="date-link"><a href="">The O2</a></div>
+                        <div class="date-location">London, United Kingdom</div>
+                    </div>
+                    <div class="btn">
+                        <button class="button">
+                            <span>GET YOUR TICKETS</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="your-music">
+        <div class="your-music-area">
+            <div class="music-left"><img src="./Images/app.jpg.webp" alt=""></div>
+            <div class="music-right">
+                <div class="music-heading">
+                    <h1>Get Your Music Right Now!</h1>
+                </div>
+                <div class="music-title">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor
+                        scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna. Interdum et malesuada
+                        fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a
+                        bibendum lacus suscipit sit amet</p>
+                </div>
+                <div class="music-image">
+                    <img src="/Images/appstore.png.webp" alt="">
+                    <img src="./Images/googleplay.png.webp" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <h1 class="albums-h1" style="font-size: 60px;  text-align: center; margin: 100px  40px;">Featured Songs</h1>
+    </div>
+    <div class="albums">
+
+        <div class="albums-area">
+
+            <div class="album-item">
+                <div class="album-image"><img src="./Images/weather.jpg" alt=""></div>
+                <div class="album-play">
+                    <div onclick="playPause()" class="play-btn" id="play"><i class="fa-solid fa-play" id="icon"></i>
+                    </div>
+                    <audio id="song">
+                        <source src="./Auidios/The_Neighbourhood_-_Sweater_Weather_(ColdMP3.com).mp3">
+                    </audio>
+                    <div class="album-title">
+                        <div class="album-name">Sweater Weather</div>
+                        <div class="album-actor">The Neighbourhood</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="album-item">
+                <div class="album-image"><img src="./Images/after.jpg" alt=""></div>
+                <div class="album-play">
+                    <div onclick="playPause2()" class="play-btn" id="play2"><i class="fa-solid fa-play" id="icon2"></i>
+                    </div>
+                    <audio id="song2">
+                        <source src="./Auidios/Mr.Kitty_-_After_Dark.mp3">
+                    </audio>
+                    <div class="album-title">
+                        <div class="album-name">After Dark</div>
+                        <div class="album-actor">Mr.Kitty</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="album-item">
+                <div class="album-image"><img src="./Images/ab67616d0000b2734ae1c4c5c45aabe565499163.jpg" alt=""></div>
+                <div class="album-play">
+                    <div onclick="playPause3()" class="play-btn" id="play3"><i class="fa-solid fa-play" id="icon3"></i>
+                    </div>
+                    <audio id="song3">
+                        <source src="./Auidios/arctic-monkeys-i-wanna-be-yours-sped-up-128-kbps.mp3">
+                    </audio>
+                    <div class="album-title">
+                        <div class="album-name">I Wanna Be Yours</div>
+                        <div class="album-actor">Arctic Monkey</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="album-item">
+                <div class="album-image"><img src="./Images/freak.jpg" alt=""></div>
+                <div class="album-play">
+                    <div onclick="playPause4()" class="play-btn" id="play4"><i class="fa-solid fa-play" id="icon4"></i>
+                    </div>
+                    <audio id="song4">
+                        <source src="./Auidios/surf-curse-freaks-lyrics-mp3indirdurum.com.mp3">
+                    </audio>
+                    <div class="album-title">
+                        <div class="album-name">Freaks</div>
+                        <div class="album-actor">Surf Curse</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="album-item">
+                <div class="album-image"><img src="./Images/ab67616d0000b27342b49302c99053f2a4ec4e26.jpg" alt=""></div>
+                <div class="album-play">
+                    <div onclick="playPause5()" class="play-btn" id="play5"><i class="fa-solid fa-play" id="icon5"></i>
+                    </div>
+                    <audio id="song5">
+                        <source src="./Auidios/Set Fire To The Rain.mp3">
+                    </audio>
+                    <div class="album-title">
+                        <div class="album-name">Set Fire To the Rain</div>
+                        <div class="album-actor">Adele</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="album-item">
+                <div class="album-image"><img src="./Images/ab67616d0000b2734718e2b124f79258be7bc452.jpg" alt=""></div>
+                <div class="album-play">
+                    <div onclick="playPause6()" class="play-btn" id="play6"><i class="fa-solid fa-play" id="icon6"></i>
+                    </div>
+                    <audio id="song6">
+                        <source src="./Auidios/The Weeknd ft. Daft Punk - Star-boy.mp3">
+                    </audio>
+                    <div class="album-title">
+                        <div class="album-name">StarBoy</div>
+                        <div class="album-actor">The Weekend</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="news-area">
+            <div class="news-title">
+                <h1>Latest News</h1>
+            </div>
+            <div class="news-container">
+
+                <div class="news-left">
+                    <div class="news-photo"><img src="./Images/news_1.jpg.webp" alt=""></div>
+                    <div class="news-info">
+                        <div class="news-date"><a href="">Oct 19, 2018</a></div>
+                        <div class="news-link"><a href="">Music Seminary at Festival</a></div>
+                        <div class="news-par">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac
+                                porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="news-center">
+                    <div class="news-photo"><img src="./Images/news_2.jpg.webp" alt=""></div>
+                    <div class="news-info">
+                        <div class="news-date"><a href="">Oct 19, 2018</a></div>
+                        <div class="news-link"><a href="">Festival list for 2019</a></div>
+                        <div class="news-par">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac
+                                porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-right">
+                    <div class="news-photo"><img src="./Images/news_3.jpg.webp" alt=""></div>
+                    <div class="news-info">
+                        <div class="news-date"><a href="">Oct 19, 2018</a></div>
+                        <div class="news-link"><a href="">New album release in 2019</a></div>
+                        <div class="news-par">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac
+                                porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="email-input">
+        <div class="email-input-area">
+            <div class="email-info">
+                <div class="email-header">
+                    <h1>Subscribe & Follow</h1>
+                </div>
+                <div class="email-title">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor
+                        scelerisque.</p>
+                </div>
+            </div>
+            <div class="email-input1">
+                <div class="email-input2"><input type="email" placeholder="Your E-mail"></div>
+                <div class="email-button">
+                    <div class="btn">
+                        <button class="button">
+                            <span>SUBSCRIBE</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-area">
+            <div class="navbar-left">
+                <a href="">
+                    <span class="logo-bars">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <span class="logo-text">music</span>
+                </a>
+
+            </div>
+            <div class="home-links2">
+
+                <div class="home-link">
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-dribbble"></i> </a>
+                    <a href=""><i class="fa-brands fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
